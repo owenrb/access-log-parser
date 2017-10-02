@@ -65,11 +65,6 @@ public class Parser {
 			
 			// retrieve DB entries based on command arguments.
 			parser.read(args);
-			/*
-			parser.read(new String[] {"--startDate", "2017-10-01.10:00:00",
-					"--duration", "hourly", 
-					"--threshold", "100"});
-			*/
 		}
 		
 	}
